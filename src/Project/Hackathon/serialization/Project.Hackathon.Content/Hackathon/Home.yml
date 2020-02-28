@@ -1,0 +1,16 @@
+﻿---
+ID: "1d5c266a-112f-4ea2-a69e-e4865ace2200"
+Parent: "5ac6cf7a-26b8-47a1-a326-8cd790317be0"
+Template: "76036f5e-cbce-46d1-af0a-4143f9b557aa"
+Path: /sitecore/content/Hackathon/Home
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Value: "20200228T165714:637185058340705745Z"
+    - ID: "75577384-3c97-45da-a847-81b00500e250"
+      Hint: Title
+      Value: "2020-Team-Horizon"
