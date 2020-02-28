@@ -1,0 +1,8 @@
+---
+Role: |
+  Hackathon\Project Hackathon Content Author
+MemberOf:
+  Role: |
+    sitecore\Author
+  Role: |
+    sitecore\Designer
