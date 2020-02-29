@@ -18,3 +18,18 @@ Languages:
       Value: |
         {86483428-418B-4D98-A8F7-29B92A3D93C5}
         {191B08E9-9200-4BE9-8CF5-F4000CD4E202}
+    - ID: "fa6129f5-9754-41df-999b-bce21744b8de"
+      Hint: Hero Body
+      Value: |
+        <h2>Participant Benefits </h2>
+        <ul>
+            <li>Name recognition  </li>
+            <li>Meet new Sitecore developers</li>
+            <li>&gt;Sense of community and experience</li>
+            <li>Get a module ready for </li>
+            <li>Sitecore Market</li>
+            <li>and lastly there are Prizes</li>
+         </ul>
+         
+         <p>If you have any questions, comments or suggestions, please feel free to get in touch with me at @akshaysura13 or post using #SCHackathon on Twitter.</p>
+        

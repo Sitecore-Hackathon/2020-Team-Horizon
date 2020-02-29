@@ -7,5 +7,6 @@ namespace Hackathon.TeamHorizon.Feature.Hero.Models
     {
         string HeroTitle { get; set; }
         IEnumerable<Image> HeroImages { get; set; }
+        string HeroBody { get; set; }
     }
 }

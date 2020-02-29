@@ -21,6 +21,7 @@ namespace Hackathon.TeamHorizon.Feature.Hero.Factories
                 HeroImages = heroItemDataSource.HeroImages,
                 HeroTitle = new HtmlString(_glassHtml.Editable(heroItemDataSource, i => i.HeroTitle,
                     new { EnclosingTag = "h2" })),
+                HeroBody = new HtmlString(_glassHtml.Editable(heroItemDataSource, i => i.HeroBody, new { EnclosingTag = "div" })),
                 IsExperienceEditor = isExperienceEditor
             };
         }

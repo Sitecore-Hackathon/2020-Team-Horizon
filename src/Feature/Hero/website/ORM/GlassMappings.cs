@@ -12,6 +12,7 @@ namespace Hackathon.TeamHorizon.Feature.Hero.ORM
                 config.AutoMap();
                 config.TemplateId(Constants.Hero.TemplateId);
                 config.Field(f => f.HeroTitle).FieldName("Hero Title");
+                config.Field(f => f.HeroBody).FieldName("Hero Body");
                 config.Field(f => f.HeroImages).FieldName("Hero Images");
             });
         }
