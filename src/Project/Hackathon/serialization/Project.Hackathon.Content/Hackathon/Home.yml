@@ -8,7 +8,7 @@ BranchID: "b90549b5-c997-4d6b-b102-c9ab82528974"
 SharedFields:
 - ID: "24171bf1-c0e1-480e-be76-4c0a1876f916"
   Hint: Page Design
-  Value: "{E87B388F-2642-4058-BF10-0715228CA086}"
+  Value: "{CDF48E9D-28D5-46A8-A41B-829D20F032D5}"
 - ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
   Hint: __Originator
   Value: "{92EB9EFB-88D4-4089-82BE-AAD92D4FA24E}"
@@ -30,3 +30,6 @@ Languages:
     - ID: "5e1cae74-2312-4a5e-9fed-ab084cd053e0"
       Hint: Title
       Value: Hackathon
+    - ID: "73a338e4-e385-4d3e-926c-f835ea8428da"
+      Hint: Content
+      Value: test

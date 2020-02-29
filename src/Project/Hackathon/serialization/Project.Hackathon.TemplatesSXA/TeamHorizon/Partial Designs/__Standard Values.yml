@@ -1,0 +1,26 @@
+﻿---
+ID: "c514a442-6431-47da-bef1-8f424e16d049"
+Parent: "3f08fa06-ec2c-427a-8550-85b272a33160"
+Template: "3f08fa06-ec2c-427a-8550-85b272a33160"
+Path: /sitecore/templates/Project/TeamHorizon/Partial Designs/__Standard Values
+DB: master
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Type: TreelistEx
+  Value: |
+    {01E07A70-6F08-47B9-81B7-AC9C1FC3A736}
+    {942EF05B-1364-4903-942C-FB3D3B630685}
+    {C2A8E276-1757-4957-9DD5-8669B79FD80D}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200229T101155Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

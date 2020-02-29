@@ -1,0 +1,14 @@
+﻿---
+ID: "6df95193-706f-4df0-84c1-d2d0b6098d73"
+Parent: "7a457cca-c799-4d60-9c06-ec09194f631c"
+Template: "e269fbb5-3750-427a-9149-7aa950b49301"
+Path: /sitecore/templates/Project/TeamHorizon/Page/Content
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200229T101227Z

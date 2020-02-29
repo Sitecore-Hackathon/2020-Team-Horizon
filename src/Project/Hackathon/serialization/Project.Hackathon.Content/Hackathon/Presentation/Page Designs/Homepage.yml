@@ -8,6 +8,9 @@ SharedFields:
 - ID: "0966b999-0d0e-4278-acc9-9da69d461fe6"
   Hint: PartialDesigns
   Value: "{C858735B-3F99-42E3-830B-022443645A66}"
+- ID: "7b487159-e180-4846-be49-e196e4c3a2b3"
+  Hint: Page Design Theme
+  Value: "{4376917F-019D-42FB-82BE-2526B3D994DC}"
 Languages:
 - Language: en
   Versions:

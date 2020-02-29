@@ -1,0 +1,25 @@
+﻿---
+ID: "3cdc7514-8b9f-4fb7-9088-b78bcc916b68"
+Parent: "7679d660-a30f-448a-aa9c-07733235a17e"
+Template: "7679d660-a30f-448a-aa9c-07733235a17e"
+Path: /sitecore/templates/Project/TeamHorizon/Page Design Folder/__Standard Values
+DB: master
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Type: TreelistEx
+  Value: |
+    {7679D660-A30F-448A-AA9C-07733235A17E}
+    {39AD21EC-661E-4CCD-A835-1F4257ED2DA8}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200229T101156Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

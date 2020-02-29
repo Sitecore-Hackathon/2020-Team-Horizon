@@ -1,0 +1,18 @@
+﻿---
+ID: "fdad03df-0194-40aa-abb4-0a4a46f82564"
+Parent: "21917278-6629-442c-a782-61f4d123bd28"
+Template: "21917278-6629-442c-a782-61f4d123bd28"
+Path: /sitecore/templates/Project/TeamHorizon/Settings/__Standard Values
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200229T101156Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

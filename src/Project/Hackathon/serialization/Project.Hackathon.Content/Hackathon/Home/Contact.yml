@@ -4,6 +4,10 @@ Parent: "e2dd8f70-79e1-48e8-8a72-fc5b36743630"
 Template: "7a457cca-c799-4d60-9c06-ec09194f631c"
 Path: /sitecore/content/TeamHorizon/Hackathon/Home/Contact
 DB: master
+SharedFields:
+- ID: "24171bf1-c0e1-480e-be76-4c0a1876f916"
+  Hint: Page Design
+  Value: "{CDF48E9D-28D5-46A8-A41B-829D20F032D5}"
 Languages:
 - Language: en
   Versions:
