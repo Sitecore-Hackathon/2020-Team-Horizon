@@ -4,6 +4,10 @@
 
 Welcome to Team Horizon Sitecore Hackathon 2020.
 
+## Documentation
+
+Full documentation is available on our [documentation page](documentation)
+
 ## Entry Submission Requirements 
 
 - Sitecore 9.3 (Initial Release) Module with SXA (Module install package)
