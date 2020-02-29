@@ -7,16 +7,16 @@ namespace Hackathon.TeamHorizon.Feature.Hack.Controllers
 {
     public class HackController : SitecoreController
     {
-        private readonly IHackMediator _heroMediator;
+        private readonly IHackMediator _hackMediator;
 
-        public HackController(IHackMediator heroMediator)
+        public HackController(IHackMediator hackMediator)
         {
-            _heroMediator = heroMediator;
+            _hackMediator = hackMediator;
         }
 
-        public ActionResult Hero()
+        public ActionResult Hack()
         {
-            var mediatorResponse = _heroMediator.RequestHackViewModel();
+            var mediatorResponse = _hackMediator.RequestHackViewModel();
 
             switch (mediatorResponse.Code)
             {

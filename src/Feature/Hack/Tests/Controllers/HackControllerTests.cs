@@ -39,7 +39,7 @@ namespace Hackathon.TeamHorizon.Feature.Hack.Tests.Controllers
 
             _hackMediator.RequestHackViewModel().Returns(createViewModelResponse);
 
-            var result = _controller.Hero() as ViewResult;
+            var result = _controller.Hack() as ViewResult;
 
             result.ViewName.Should().Be("~/views/Hack/Error.cshtml");
         }
@@ -54,7 +54,7 @@ namespace Hackathon.TeamHorizon.Feature.Hack.Tests.Controllers
 
             _hackMediator.RequestHackViewModel().Returns(createViewModelResponse);
 
-            Action act = () => _controller.Hero();
+            Action act = () => _controller.Hack();
             act.ShouldThrow<InvalidMediatorResponseCodeException>().Where(e =>
                 e.Message.Equals(
                     $"{ErrorMessages.InvalidMediatorResponse.InvalidCodeReturned}: {createViewModelResponse.Code}"));

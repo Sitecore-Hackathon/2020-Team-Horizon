@@ -1,8 +1,8 @@
----
-ID: "6cf55936-0b82-4ef5-9dc2-81d8ae0a8ddb"
-Parent: "F5F0FBE3-61AD-4967-A5D8-8D760331D6A1"
-Template: "c3b037a0-46e5-4b67-ac7a-a144b962a56f"
-Path: /sitecore/layout/Placeholder Settings/Project/Hackathon
+﻿---
+ID: "4b7bb5d9-3a4a-4a63-9219-4495182fde4d"
+Parent: "55c817c9-6226-460b-b015-282776c95ed0"
+Template: "55c817c9-6226-460b-b015-282776c95ed0"
+Path: /sitecore/templates/Project/Common/Content Types/Hackathon/__Standard Values
 DB: master
 Languages:
 - Language: en
@@ -11,7 +11,7 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20170212T143740Z
+      Value: 20200229T190811Z
     - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
       Hint: __Created by
       Value: |

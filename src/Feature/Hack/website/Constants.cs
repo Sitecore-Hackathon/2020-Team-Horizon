@@ -9,7 +9,7 @@ namespace Hackathon.TeamHorizon.Feature.Hack
     {
         public static class Hack
         {
-            public static readonly Guid TemplateId = new Guid("{A995171A-2F15-4393-AB0C-61654FB3832F}");
+            public static readonly Guid TemplateId = new Guid("{55C817C9-6226-460B-B015-282776C95ED0}");
         }
     }
 
