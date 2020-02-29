@@ -1,0 +1,41 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.web">
+  <PropertyGroup>
+    <TargetFramework>net48</TargetFramework>
+	  <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+	  <ApplicationIcon />
+	  <OutputType>Library</OutputType>
+	  <StartupObject />
+	  <AssemblyName>Hackathon.TeamHorizon.Feature.Hack</AssemblyName>
+  </PropertyGroup>
+  <ItemGroup>
+    <Content Remove="Views\web.config" />
+    <Content Remove="Web.config" />
+    <Content Remove="Web.Debug.config" />
+    <Content Remove="Web.Release.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Views\web.config" />
+    <None Include="Web.config" />
+    <None Include="Web.Debug.config" />
+    <None Include="Web.Release.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Glass.Mapper.Sc.93.Core" Version="5.6.160" />
+    <PackageReference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform" Version="2.0.1" />
+    <PackageReference Include="Microsoft.Net.Compilers" Version="3.3.1">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Sitecore.ContentSearch.Linq" Version="9.3.0" />
+    <PackageReference Include="Sitecore.Mvc" Version="9.3.0" />
+    <PackageReference Include="System.ComponentModel.Annotations" Version="4.7.0" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\Foundation\Content\website\Hackathon.TeamHorizon.Foundation.Content.csproj" />
+    <ProjectReference Include="..\..\..\Foundation\Core\website\Hackathon.TeamHorizon.Foundation.Core.csproj" />
+    <ProjectReference Include="..\..\..\Foundation\DI\website\Hackathon.TeamHorizon.Foundation.DI.csproj" />
+    <ProjectReference Include="..\..\..\Foundation\Logging\website\Hackathon.TeamHorizon.Foundation.Logging.csproj" />
+    <ProjectReference Include="..\..\..\Foundation\ORM\website\Hackathon.TeamHorizon.Foundation.ORM.csproj" />
+    <ProjectReference Include="..\..\..\Foundation\Search\website\Hackathon.TeamHorizon.Foundation.Search.csproj" />
+  </ItemGroup>
+</Project>

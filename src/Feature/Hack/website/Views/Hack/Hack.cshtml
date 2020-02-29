@@ -1,0 +1,15 @@
+@model Hackathon.TeamHorizon.Feature.Hack.ViewModels.HackViewModel
+
+@if (Model != null)
+{
+    @Model.HackTitle
+
+    if (Model.HackImage != null)
+    {
+        <div>
+            <img class="d-block img-fluid" src="@Model.HackImage.Src" />
+        </div>
+    }
+
+    @Model.HackBody
+}

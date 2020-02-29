@@ -1,71 +1,58 @@
 # Documentation
 
-The documentation for this years Hackathon must be provided as a readme in Markdown format as part of your submission. 
-
-You can find a very good reference to Github flavoured markdown reference in [this cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet). If you want something a bit more WYSIWYG for editing then could use [StackEdit](https://stackedit.io/app) which provides a more user friendly interface for generating the Markdown code. Those of you who are [VS Code fans](https://code.visualstudio.com/docs/languages/markdown#_markdown-preview) can edit/preview directly in that interface too.
-
-Examples of things to include are the following.
+Team Horizon took the challenge of building a refreshed Sitecore Hackathon Website using Sitecore XP 9.3
 
 ## Summary
 
-**Category:** Hackathon Category
+**Category:** 3. Sitecore Hackathon Website – This idea is sooo meta! Several years have passed with the current version and it’s in need of a refresh
 
-What is the purpose of your module? What problem does it solve and how does it do that?
+To see how quickly we can produce a refreshed Sitecore Hackathon Website.
+The refreshed Sitecore Hackathon Website will have the following functionality
+
+1. Landing Page
+2. Hackathon Page
+3. Teams page
+4. Subscription Page
+5. Hackathon History Page
+6. Hackathon Calendar<br>
+	6.a Filter by <br>
+		- Country <br>
+		- City <br>
+		- Date/Timeline <br>
+	6.b ListView/Map View <br>
+7. Hackathon Topics
+8. Social Media Widgets
+
 
 ## Pre-requisites
 
 Does your module rely on other Sitecore modules or frameworks?
 
-- List any dependencies
-- Or other modules that must be installed
-- Or services that must be enabled/configured
+- [Helixbase](https://github.com/muso31/Helixbase)
 
 ## Installation
 
 Provide detailed instructions on how to install the module, and include screenshots where necessary.
 
-1. Use the Sitecore Installation wizard to install the [package](#link-to-package)
-2. ???
-3. Profit
+*Please Install Visual Studio 2017 Version 15.7 or higher as this project uses PackageReference
+
+1. Install Sitecore Experience Platform 9.3 Initial Release
+2. Clone project to 'C:\2020-Team-Horizon'<br>
+ <em>If you use another path, update the z.Project.Common.DevSettings.config</em>
+3. Update the 'publishUrl' property in Local.pubxml to the target IIS folder
+4. Build the project from inside Visual Studio (which triggers HPP auto publish), or use the 'Local' publish profile in the Hackathon.TeamHorizon.Website project
+5. Run Unicorn and sync all configurations
 
 ## Configuration
 
-How do you configure your module once it is installed? Are there items that need to be updated with settings, or maybe config files need to have keys updated?
-
-Remember you are using Markdown, you can provide code samples too:
-
-```xml
-<?xml version="1.0"?>
-<!--
-  Purpose: Configuration settings for my hackathon module
--->
-<configuration xmlns:patch="http://www.sitecore.net/xmlconfig/">
-  <sitecore>
-    <settings>
-      <setting name="MyModule.Setting" value="Hackathon" />
-    </settings>
-  </sitecore>
-</configuration>
-```
+No custom configuration required as this is a standalone website instance
 
 ## Usage
 
-Provide documentation  about your module, how do the users use your module, where are things located, what do icons mean, are there any secret shortcuts etc.
+This is a standalone refreshed website. Use the standard Sitecore tooling including Content Editor, Experience Editor to update and publish content
 
-Please include screenshots where necessary. You can add images to the `./images` folder and then link to them from your documentation:
-
-![Hackathon Logo](images/hackathon.png?raw=true "Hackathon Logo")
-
-You can embed images of different formats too:
-
-![Deal With It](images/deal-with-it.gif?raw=true "Deal With It")
-
-And you can embed external images too:
-
-![Random](https://placeimg.com/480/240/any "Random")
 
 ## Video
 
-Please provide a video highlighing your Hackathon module submission and provide a link to the video. Either a [direct link](https://www.youtube.com/watch?v=EpNhxW4pNKk) to the video, upload it to this documentation folder or maybe upload it to Youtube...
+Our documentation video is here <em>/documentation/videos/2020-Team Horizon.mp4</em>
 
-[![Sitecore Hackathon Video Embedding Alt Text](https://img.youtube.com/vi/EpNhxW4pNKk/0.jpg)](https://www.youtube.com/watch?v=EpNhxW4pNKk)

@@ -1,0 +1,40 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.web">
+  <PropertyGroup>
+    <TargetFramework>net48</TargetFramework>
+	<GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+	<ApplicationIcon />
+	<OutputType>Library</OutputType>
+	<StartupObject />
+    <AssemblyName>Hackathon.TeamHorizon.Foundation.Testing</AssemblyName>
+  </PropertyGroup>
+  <ItemGroup>
+    <Content Remove="Web.config" />
+    <Content Remove="Web.Debug.config" />
+    <Content Remove="Web.Release.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Web.config" />
+    <None Include="Web.Debug.config" />
+    <None Include="Web.Release.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="AutoFixture" Version="4.11.0" />
+    <PackageReference Include="AutoFixture.Xunit2" Version="4.11.0" />
+    <PackageReference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform" Version="2.0.1" />
+    <PackageReference Include="Microsoft.Net.Compilers" Version="3.3.1">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Moq" Version="4.13.1" />
+    <PackageReference Include="Sitecore.FakeDb" Version="2.0.1" />
+    <PackageReference Include="Sitecore.Kernel" Version="9.3.0" />
+    <PackageReference Include="Sitecore.Mvc" Version="9.3.0" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Extensions\" />
+    <Folder Include="TestDoubles\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\ORM\website\Hackathon.TeamHorizon.Foundation.ORM.csproj" />
+  </ItemGroup>
+</Project>

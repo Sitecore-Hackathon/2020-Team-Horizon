@@ -1,0 +1,62 @@
+﻿---
+ID: "4dcc9c00-8eba-4cf8-9fd1-fe5b68744eea"
+Parent: "c6db7fde-dbbd-49a0-ada7-ab54a3f1cefc"
+Template: "55c817c9-6226-460b-b015-282776c95ed0"
+Path: /sitecore/content/Hackathon/Global/Hackathon Items/Hackathon 1
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200229T191003Z
+    - ID: "53ffe78b-26f0-4eac-97df-2bd246cf8b22"
+      Hint: Hack Image
+      Value: |
+        <image mediaid="{0B25C410-DDC8-4D65-BCC7-A246FE62DFDB}" />
+    - ID: "8f5e0c01-9f28-4769-82fd-2d22aa55c53d"
+      Hint: Hack Body
+      Value: |
+        <p style="border-width: 0px; border-style: none; margin: 0px 0px 20px; padding: 0px; border-image: none; color: rgb(85, 85, 85); letter-spacing: normal; background-color: rgb(255, 255, 255);">The 2020 Sitecore Hackathon is a free online community driven event organized by&nbsp;<a rel="noopener noreferrer" style="margin: 0px; padding: 0px; border: 0px; border-image: none; color: rgb(191, 52, 23); text-decoration: none;" href="https://twitter.com/akshaysura13" target="_blank">Akshay Sura</a>&nbsp;and supported by Sitecore. (Shout out to&nbsp;<a rel="noopener noreferrer" style="margin: 0px; padding: 0px; border: 0px; border-image: none; color: rgb(191, 52, 23); text-decoration: none;" href="https://twitter.com/pieterbrink123" target="_blank">Pieter</a>, &nbsp;<a rel="noopener noreferrer" style="margin: 0px; padding: 0px; border: 0px; border-image: none; color: rgb(191, 52, 23); text-decoration: none;" href="https://twitter.com/markvanaalst" target="_blank">Mark</a><span></span>and<span></span><a rel="noopener noreferrer" style="margin: 0px; padding: 0px; border: 0px; border-image: none; color: rgb(191, 52, 23); text-decoration: none;" href="https://twitter.com/VargaT" target="_blank">Tamas</a>).</p>
+        <p style="border-width: 0px; border-style: none; margin: 0px 0px 20px; padding: 0px; border-image: none; color: rgb(85, 85, 85); letter-spacing: normal; background-color: rgb(255, 255, 255);">Teams that have signed up by<span></span><strong style="margin: 0px; padding: 0px; border: 0px; border-image: none;">6 pm EST February 14, 2020</strong><span></span>will have the opportunity to participate in the contest. Eligible teams will have 24 hours &mdash; starting<span></span><strong style="margin: 0px; padding: 0px; border: 0px; border-image: none;">Friday February 28th 2020 at 8PM EST</strong><span></span>and ending<span></span><strong style="margin: 0px; padding: 0px; border: 0px; border-image: none;">Saturday February 29th 2020 at 8PM EST</strong>&nbsp;&ndash; to build and submit a Sitecore module best implementing the idea for the Hackathon, as determined by our panel of judges. The idea(s) will be announced an hour before the Hackathon starts on February 28th.</p>
+        <p style="border-width: 0px; border-style: none; margin: 0px 0px 20px; padding: 0px; border-image: none; color: rgb(85, 85, 85); letter-spacing: normal; background-color: rgb(255, 255, 255);"><strong style="margin: 0px; padding: 0px; border: 0px; border-image: none;"><span style="text-decoration: underline;">We had to choose a date so that we can make sure the announcements can be made at the SUGCON EU 2020 on in Budapest.</span></strong></p>
+        <div style="border-width: 0px; border-style: none; margin: 0px; padding: 0px; border-image: none; color: rgb(85, 85, 85); letter-spacing: normal; background-color: rgb(255, 255, 255);">Quick Stats</div>
+        <ul style="margin: 0px 0px 20px 2px; padding: 0px 0px 0px 20px; border: 0px; border-image: none; color: rgb(85, 85, 85); letter-spacing: normal; list-style-type: square; list-style-image: none; background-color: rgb(255, 255, 255);">
+            <li style="margin: 0px 0px 1px; padding: 0px; border: 0px; border-image: none;">82 Teams participating</li>
+            <li style="margin: 0px 0px 1px; padding: 0px; border: 0px; border-image: none;">Entries from over 23 countries</li>
+            <li style="margin: 0px 0px 1px; padding: 0px; border: 0px; border-image: none;"><a rel="noopener noreferrer" style="margin: 0px; padding: 0px; border: 0px; border-image: none; color: rgb(191, 52, 23); text-decoration: none;" href="https://photos.app.goo.gl/sYtfuxPKS5R558t19" target="_blank">Pictures from the 2020 Hackathon</a></li>
+        </ul>
+        <div class="stack-title" style="border-width: 0px 0px 1px; margin: 0px 0px 25px; padding: 0px 0px 15px; color: rgb(85, 85, 85); letter-spacing: normal; border-top-color: initial; border-right-color: initial; border-bottom-color: rgb(238, 238, 238); border-left-color: initial; border-top-style: initial; border-right-style: initial; border-bottom-style: solid; border-left-style: initial; background-color: rgb(255, 255, 255);">Entry Submission Requirements<span class="spot" style="background: rgb(238, 238, 238); margin: 0px; padding: 0px; border: 0px; border-image: none; width: 5px; height: 5px;"></span></div>
+        <p style="border-width: 0px; border-style: none; margin: 0px 0px 20px; padding: 0px; border-image: none; color: rgb(85, 85, 85); letter-spacing: normal; background-color: rgb(255, 255, 255);">All teams are required to submit the following as part of their entry submission on or before the end of the Hackathon on Saturday February 29th 2020 at 8PM EST. The modules should be based on<span></span><a rel="noopener noreferrer" style="margin: 0px; padding: 0px; border: 0px; border-image: none; color: rgb(191, 52, 23); text-decoration: none;" href="https://dev.sitecore.net/Downloads/Sitecore_Experience_Platform/93/Sitecore_Experience_Platform_93_Initial_Release.aspx" target="_blank">Sitecore 9.3<span></span></a>and if you are using commerce it should be Sitecore Experience Commerce 9.3.</p>
+        <ul style="margin: 0px 0px 20px 2px; padding: 0px 0px 0px 20px; border: 0px; border-image: none; color: rgb(85, 85, 85); letter-spacing: normal; list-style-type: square; list-style-image: none; background-color: rgb(255, 255, 255);">
+            <li style="margin: 0px 0px 1px; padding: 0px; border: 0px; border-image: none;">Deploy package (.zip) or a Sitecore Module install package with proper installation instructions</li>
+            <li style="margin: 0px 0px 1px; padding: 0px; border: 0px; border-image: none;">Module Code in the Git source repository (Provided)
+            <ul style="margin: 0px 0px 20px 2px; padding: 0px 0px 0px 20px; border: 0px; border-image: none; list-style-type: square; list-style-image: none;">
+                <li style="margin: 0px 0px 1px; padding: 0px; border: 0px; border-image: none;">Cleanliness of code</li>
+                <li style="margin: 0px 0px 1px; padding: 0px; border: 0px; border-image: none;">Commenting where necessary</li>
+                <li style="margin: 0px 0px 1px; padding: 0px; border: 0px; border-image: none;">Code Structure</li>
+                <li style="margin: 0px 0px 1px; padding: 0px; border: 0px; border-image: none;">Standard coding standards &amp; naming conventions</li>
+            </ul>
+            </li>
+            <li style="margin: 0px 0px 1px; padding: 0px; border: 0px; border-image: none;"><strong style="margin: 0px; padding: 0px; border: 0px; border-image: none;">Precise and Clear Installation Instructions document (1 &ndash; 2 pages)</strong></li>
+            <li style="margin: 0px 0px 1px; padding: 0px; border: 0px; border-image: none;"><strong style="margin: 0px; padding: 0px; border: 0px; border-image: none;">Module usage documentation on Readme.md file on the Git Repository provided to you (2 &ndash; 5 pages)</strong>
+            <ul style="margin: 0px 0px 20px 2px; padding: 0px 0px 0px 20px; border: 0px; border-image: none; list-style-type: square; list-style-image: none;">
+                <li style="margin: 0px 0px 1px; padding: 0px; border: 0px; border-image: none;">Module Purpose</li>
+                <li style="margin: 0px 0px 1px; padding: 0px; border: 0px; border-image: none;">Module Sitecore Hackathon Category</li>
+                <li style="margin: 0px 0px 1px; padding: 0px; border: 0px; border-image: none;">How does the end user use the Module?</li>
+                <li style="margin: 0px 0px 1px; padding: 0px; border: 0px; border-image: none;">Screenshots, etc.</li>
+            </ul>
+            </li>
+            <li style="margin: 0px 0px 1px; padding: 0px; border: 0px; border-image: none;"><strong style="margin: 0px; padding: 0px; border: 0px; border-image: none;">Create a 2 &ndash; 10 minutes video explaining the module&rsquo;s functionality (A link to youtube video)</strong>
+            <ul style="margin: 0px 0px 20px 2px; padding: 0px 0px 0px 20px; border: 0px; border-image: none; list-style-type: square; list-style-image: none;">
+                <li style="margin: 0px 0px 1px; padding: 0px; border: 0px; border-image: none;">What problem was solved</li>
+                <li style="margin: 0px 0px 1px; padding: 0px; border: 0px; border-image: none;">How did you solve it</li>
+                <li style="margin: 0px 0px 1px; padding: 0px; border: 0px; border-image: none;">What is the end result</li>
+            </ul>
+            </li>
+        </ul>
+    - ID: "d34aeb1a-f935-4c13-8c0b-e4b55a9c12fa"
+      Hint: Hack Title
+      Value: Sitecore Hackathon 2020

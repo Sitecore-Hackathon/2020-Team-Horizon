@@ -1,0 +1,48 @@
+﻿---
+ID: "0a275e4a-98df-4cb3-8a7e-948f53010ae3"
+Parent: "6e5697fc-4f5e-45f0-9e6a-1c81aa64a00f"
+Template: "462bb765-f578-4d46-a47b-20d16a1bfd94"
+Path: /sitecore/content/Hackathon/Global/Hero Items/Hero 1
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20170212T173031Z
+    - ID: "6968b632-46df-4de2-a129-d9637cca094f"
+      Hint: Hero Images
+      Type: Treelist
+      Value: |
+        {1D37D442-A155-4D8C-8755-D67920EB9F96}
+        {70709054-B3E6-4AAD-83D0-ED0AA5F12426}
+        {191B08E9-9200-4BE9-8CF5-F4000CD4E202}
+        {86483428-418B-4D98-A8F7-29B92A3D93C5}
+    - ID: "fa6129f5-9754-41df-999b-bce21744b8de"
+      Hint: Hero Body
+      Value: |
+        <h2>Participant Benefits </h2>
+        <ul>
+            <li>Name recognition  </li>
+            <li>Meet new Sitecore developers</li>
+            <li>sense of community and experience</li>
+            <li>Get a module ready for </li>
+            <li>Sitecore Market</li>
+            <li>and lastly there are Prizes</li>
+        </ul>
+        <p>If you have any questions, comments or suggestions, please feel free to get in touch with me at @akshaysura13 or post using #SCHackathon on Twitter.</p>
+        <p>&nbsp;</p>
+        <h2>Our Hackathons</h2>
+        <p style="border-width: 0px; border-style: none; margin: 0px 0px 20px; padding: 0px; border-image: none; color: rgb(85, 85, 85); letter-spacing: normal; background-color: rgb(255, 255, 255);"><strong style="margin: 0px; padding: 0px; border: 0px; border-image: none;">Sitecore Hackathon 2020 &ndash; 29 February 2020 &ndash; Current</strong></p>
+        <ul style="padding: 0px 0px 0px 20px; border: 0px; border-image: none; color: rgb(85, 85, 85); letter-spacing: normal; margin-top: 0px; margin-right: 0px; margin-bottom: 20px; list-style-type: square; list-style-image: none; background-color: rgb(255, 255, 255);">
+            <li style="margin: 0px 0px 1px; padding: 0px; border: 0px; border-image: none;"><a href="~/link.aspx?_id=C8FBDBD97F0A4C94A4C257B864C13591&amp;_z=z">Sitecore Hackathon 2020</a></li>
+        </ul>
+        <p style="border-width: 0px; border-style: none; margin: 0px 0px 20px; padding: 0px; border-image: none; color: rgb(85, 85, 85); letter-spacing: normal; background-color: rgb(255, 255, 255);"><strong style="margin: 0px; padding: 0px; border: 0px; border-image: none;">Sitecore Hackathon 2019 &ndash; Mar 2019</strong></p>
+        <ul style="margin: 0px 0px 20px 2px; padding: 0px 0px 0px 20px; border: 0px; border-image: none; color: rgb(85, 85, 85); letter-spacing: normal; list-style-type: square; list-style-image: none; background-color: rgb(255, 255, 255);">
+            <li style="margin: 0px 0px 1px; padding: 0px; border: 0px; border-image: none;">97 Teams participated</li>
+            <li style="margin: 0px 0px 1px; padding: 0px; border: 0px; border-image: none;">Entries from over 25 countries</li>
+            <li style="margin: 0px 0px 1px; padding: 0px; border: 0px; border-image: none;"><a rel="noopener noreferrer" style="margin: 0px; padding: 0px; border: 0px; border-image: none; color: rgb(191, 52, 23); text-decoration: none;" href="https://photos.app.goo.gl/rZMfkWCQpKkmVJcs9" target="_blank">Pictures from the 2019 Hackathon</a></li>
+            <li style="margin: 0px 0px 1px; padding: 0px; border: 0px; border-image: none;"><a title="Sitecore Hackathon 2019 Winning Teams" style="margin: 0px; padding: 0px; border: 0px; border-image: none; color: rgb(191, 52, 23); text-decoration: none;" href="http://www.sitecorehackathon.org/sitecore-hackathon-2019-winning-teams/">Sitecore Hackathon 2019 Winning Teams</a></li>
+        </ul>
