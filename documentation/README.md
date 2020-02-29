@@ -24,9 +24,14 @@ Does your module rely on other Sitecore modules or frameworks?
 
 Provide detailed instructions on how to install the module, and include screenshots where necessary.
 
-1. Use the Sitecore Installation wizard to install the [package](#link-to-package)
-2. ???
-3. Profit
+*Please Install Visual Studio 2017 Version 15.7 or higher as this project uses PackageReference
+
+Install Sitecore Experience Platform 9.3 Initial Release
+Clone project to 'C:\2020-Team-Horizon'
+If you use another path, update the z.Project.Common.DevSettings.config
+Update the 'publishUrl' property in Local.pubxml to the target IIS folder
+Build the project from inside Visual Studio (which triggers HPP auto publish), or use the 'Local' publish profile in the Hackathon.TeamHorizon.Website project
+Run Unicorn and sync all configurations
 
 ## Configuration
 
