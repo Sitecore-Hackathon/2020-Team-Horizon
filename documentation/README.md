@@ -26,12 +26,12 @@ Provide detailed instructions on how to install the module, and include screensh
 
 *Please Install Visual Studio 2017 Version 15.7 or higher as this project uses PackageReference
 
-Install Sitecore Experience Platform 9.3 Initial Release
-Clone project to 'C:\2020-Team-Horizon'
-If you use another path, update the z.Project.Common.DevSettings.config
-Update the 'publishUrl' property in Local.pubxml to the target IIS folder
-Build the project from inside Visual Studio (which triggers HPP auto publish), or use the 'Local' publish profile in the Hackathon.TeamHorizon.Website project
-Run Unicorn and sync all configurations
+1. Install Sitecore Experience Platform 9.3 Initial Release
+2. Clone project to 'C:\2020-Team-Horizon'<br>
+ <em>If you use another path, update the z.Project.Common.DevSettings.config</em>
+3. Update the 'publishUrl' property in Local.pubxml to the target IIS folder
+4. Build the project from inside Visual Studio (which triggers HPP auto publish), or use the 'Local' publish profile in the Hackathon.TeamHorizon.Website project
+5. Run Unicorn and sync all configurations
 
 ## Configuration
 
