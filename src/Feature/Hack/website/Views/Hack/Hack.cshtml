@@ -4,21 +4,10 @@
 {
     @Model.HackTitle
 
-    if (Model.IsExperienceEditor)
+    if (Model.HackImage != null)
     {
         <div>
-            <img src="@Model.HackImage.Src" />
-        </div>
-    }
-    else
-    {
-        <div id="heroCarousel" class="carousel slide" data-ride="carousel">
-            @if (Model.HackImage != null)
-            {
-                <div>
-                    <img class="d-block img-fluid" src="@Model.HackImage.Src" />
-                </div>
-            }
+            <img class="d-block img-fluid" src="@Model.HackImage.Src" />
         </div>
     }
 

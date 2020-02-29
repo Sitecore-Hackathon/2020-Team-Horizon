@@ -10,14 +10,14 @@ namespace Hackathon.TeamHorizon.Feature.Hack.Mediators
     {
         private readonly IHackService _hackService;
         private readonly IMediatorService _mediatorService;
-        private readonly IHackViewModelFactory _heroViewModelFactory;
+        private readonly IHackViewModelFactory _hackViewModelFactory;
 
         public HackMediator(IHackService hackService, IMediatorService mediatorService,
-            IHackViewModelFactory heroViewModelFactory)
+            IHackViewModelFactory hackViewModelFactory)
         {
             _hackService = hackService;
             _mediatorService = mediatorService;
-            _heroViewModelFactory = heroViewModelFactory;
+            _hackViewModelFactory = hackViewModelFactory;
         }
 
         /// <summary>
@@ -27,13 +27,13 @@ namespace Hackathon.TeamHorizon.Feature.Hack.Mediators
         /// <returns>A mediator response with the result of the view model instantiation</returns>
         public MediatorResponse<HackViewModel> RequestHackViewModel()
         {
-            var hackItemDataSource = _hackService.GetHeroItems();
+            var hackItemDataSource = _hackService.GetHackItems();
 
             if (hackItemDataSource == null)
                 return _mediatorService.GetMediatorResponse<HackViewModel>(MediatorCodes.HackResponse.DataSourceError);
 
             var viewModel =
-                _heroViewModelFactory.CreateHeroViewModel(hackItemDataSource, _hackService.IsExperienceEditor);
+                _hackViewModelFactory.CreateHeroViewModel(hackItemDataSource, _hackService.IsExperienceEditor);
 
             if (viewModel == null)
                 return _mediatorService.GetMediatorResponse<HackViewModel>(MediatorCodes.HackResponse.ViewModelError);

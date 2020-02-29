@@ -12,6 +12,10 @@ Languages:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
       Value: 20200229T191003Z
+    - ID: "53ffe78b-26f0-4eac-97df-2bd246cf8b22"
+      Hint: Hack Image
+      Value: |
+        <image mediaid="{0B25C410-DDC8-4D65-BCC7-A246FE62DFDB}" />
     - ID: "8f5e0c01-9f28-4769-82fd-2d22aa55c53d"
       Hint: Hack Body
       Value: |

@@ -5,8 +5,7 @@ namespace Hackathon.TeamHorizon.Feature.Hack.Services
 {
     public interface IHackService
     {
-        IHack GetHeroItems();
-        BaseSearchResultItem GetHeroImagesSearch();
+        IHack GetHackItems();
         bool IsExperienceEditor { get; }
     }
 }
