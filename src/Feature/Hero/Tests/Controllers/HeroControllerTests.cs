@@ -14,6 +14,7 @@ using ErrorMessages = Hackathon.TeamHorizon.Foundation.Core.Exceptions.Constants
 
 namespace Hackathon.TeamHorizon.Feature.Hero.Tests.Controllers
 {
+    [ExcludeFromCodeCoverage]
     [TestClass]
     [SuppressMessage("ReSharper", "PossibleNullReferenceException")]
     public class HeroControllerTests

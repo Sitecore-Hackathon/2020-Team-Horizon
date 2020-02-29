@@ -14,6 +14,7 @@ using ErrorMessages = Hackathon.TeamHorizon.Foundation.Core.Exceptions.Constants
 
 namespace Hackathon.TeamHorizon.Feature.Hack.Tests.Controllers
 {
+    [ExcludeFromCodeCoverage]
     [TestClass]
     [SuppressMessage("ReSharper", "PossibleNullReferenceException")]
     public class HackControllerTests
@@ -32,9 +33,9 @@ namespace Hackathon.TeamHorizon.Feature.Hack.Tests.Controllers
         [TestMethod]
         public void Hack_Action_GivenDataSourceError_ReturnsErrorView()
         {
-            var fixture = new Fixture();
+            var fixture                 = new Fixture();
             var createViewModelResponse = fixture.Build<MediatorResponse<HackViewModel>>()
-                .With(x => x.Code, MediatorCodes.HackResponse.DataSourceError)
+                .With(x                 => x.Code, MediatorCodes.HackResponse.DataSourceError)
                 .Create();
 
             _hackMediator.RequestHackViewModel().Returns(createViewModelResponse);
@@ -47,9 +48,9 @@ namespace Hackathon.TeamHorizon.Feature.Hack.Tests.Controllers
         [TestMethod]
         public void Hack_Action_Throws_InvalidMediatorResponseCodeException()
         {
-            var fixture = new Fixture();
+            var fixture                 = new Fixture();
             var createViewModelResponse = fixture.Build<MediatorResponse<HackViewModel>>()
-                .With(x => x.Code, "Unknown code")
+                .With(x                 => x.Code, "Unknown code")
                 .Create();
 
             _hackMediator.RequestHackViewModel().Returns(createViewModelResponse);
