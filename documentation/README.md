@@ -4,7 +4,7 @@ Team Horizon took the challenge of building a refreshed Sitecore Hackathon Websi
 
 ## Summary
 
-**Category:** 3. Sitecore Hackathon Website 
+**Category:** 3. Sitecore Hackathon Website – This idea is sooo meta! Several years have passed with the current version and it’s in need of a refresh
 
 To see how quickly we can produce a refreshed Sitecore Hackathon Website.
 The refreshed Sitecore Hackathon Website will have the following functionality
@@ -28,7 +28,6 @@ The refreshed Sitecore Hackathon Website will have the following functionality
 
 Does your module rely on other Sitecore modules or frameworks?
 
-- [Sitecore Experience Accelerator 9.3.0](https://dev.sitecore.net/Downloads/Sitecore_Experience_Accelerator/9x/Sitecore_Experience_Accelerator_930.aspx)
 - [Helixbase](https://github.com/muso31/Helixbase)
 
 ## Installation
