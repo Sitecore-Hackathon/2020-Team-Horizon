@@ -1,32 +1,25 @@
 # Documentation
 
-The documentation for this years Hackathon must be provided as a readme in Markdown format as part of your submission. 
-
-You can find a very good reference to Github flavoured markdown reference in [this cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet). If you want something a bit more WYSIWYG for editing then could use [StackEdit](https://stackedit.io/app) which provides a more user friendly interface for generating the Markdown code. Those of you who are [VS Code fans](https://code.visualstudio.com/docs/languages/markdown#_markdown-preview) can edit/preview directly in that interface too.
-
-Examples of things to include are the following.
+Team Horizon took the challenge of building a refreshed Sitecore Hackathon Website using Sitecore XP 9.3 and SXA
 
 ## Summary
 
-**Category:** Hackathon Category
+**Category:** 3. Sitecore Hackathon Website 
 
-What is the purpose of your module? What problem does it solve and how does it do that?
+To see how quickly we can leverage Sitecore SXA to produce a refreshed Sitecore Hackathon Website.
 
 ## Pre-requisites
 
 Does your module rely on other Sitecore modules or frameworks?
 
-- List any dependencies
-- Or other modules that must be installed
-- Or services that must be enabled/configured
+- [Sitecore Experience Accelerator 9.3.0](https://dev.sitecore.net/Downloads/Sitecore_Experience_Accelerator/9x/Sitecore_Experience_Accelerator_930.aspx)
+- [Helixbase](https://github.com/muso31/Helixbase)
 
 ## Installation
 
 Provide detailed instructions on how to install the module, and include screenshots where necessary.
 
 1. Use the Sitecore Installation wizard to install the [package](#link-to-package)
-2. ???
-3. Profit
 
 ## Configuration
 
@@ -50,19 +43,8 @@ Remember you are using Markdown, you can provide code samples too:
 
 ## Usage
 
-Provide documentation  about your module, how do the users use your module, where are things located, what do icons mean, are there any secret shortcuts etc.
+This is a standalone refreshed website. Use the standard Sitecore tooling including Content Editor, Experience Editor to update and publish content
 
-Please include screenshots where necessary. You can add images to the `./images` folder and then link to them from your documentation:
-
-![Hackathon Logo](images/hackathon.png?raw=true "Hackathon Logo")
-
-You can embed images of different formats too:
-
-![Deal With It](images/deal-with-it.gif?raw=true "Deal With It")
-
-And you can embed external images too:
-
-![Random](https://placeimg.com/480/240/any "Random")
 
 ## Video
 
