@@ -7,6 +7,22 @@ Team Horizon took the challenge of building a refreshed Sitecore Hackathon Websi
 **Category:** 3. Sitecore Hackathon Website 
 
 To see how quickly we can produce a refreshed Sitecore Hackathon Website.
+The refreshed Sitecore Hackathon Website will have the following functionality
+
+1. Landing Page
+2. Hackathon Page
+3. Teams page
+4. Subscription Page
+5. Hackathon History Page
+6. Hackathon Calendar<br>
+	6.a Filter by <br>
+		- Country <br>
+		- City <br>
+		- Date/Timeline <br>
+	6.b ListView/Map View <br>
+7. Hackathon Topics
+8. Social Media Widgets
+
 
 ## Pre-requisites
 
