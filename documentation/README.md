@@ -54,4 +54,5 @@ This is a standalone refreshed website. Use the standard Sitecore tooling includ
 
 ## Video
 
-Our ![documentation video is here](videos/2020-Team Horizon.mp4?raw=true "Documentation Video")
+Our documentation video is here <em>/documentation/videos/2020-Team Horizon.mp4</em>
+
