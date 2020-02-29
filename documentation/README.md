@@ -28,7 +28,6 @@ The refreshed Sitecore Hackathon Website will have the following functionality
 
 Does your module rely on other Sitecore modules or frameworks?
 
-- [Sitecore Experience Accelerator 9.3.0](https://dev.sitecore.net/Downloads/Sitecore_Experience_Accelerator/9x/Sitecore_Experience_Accelerator_930.aspx)
 - [Helixbase](https://github.com/muso31/Helixbase)
 
 ## Installation
