@@ -1,0 +1,18 @@
+﻿---
+ID: "2f5bfc3e-5566-4dc3-b018-dfa6c60a6a9f"
+Parent: "4d0be512-e128-40d9-a6ab-8f3770246dd5"
+Template: "9c2d0fdf-4daf-4494-bde7-f857f1924825"
+Path: /sitecore/content/TeamHorizon/Hackathon/Data/Navigation Filters
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200229T101544Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

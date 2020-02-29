@@ -1,0 +1,18 @@
+﻿---
+ID: "2e93eee0-6fad-47bd-9de8-b350d00ceca2"
+Parent: "4d0be512-e128-40d9-a6ab-8f3770246dd5"
+Template: "861d0715-e397-4114-870a-7fbb1fe8c9d6"
+Path: /sitecore/content/TeamHorizon/Hackathon/Data/Images
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200229T101534Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

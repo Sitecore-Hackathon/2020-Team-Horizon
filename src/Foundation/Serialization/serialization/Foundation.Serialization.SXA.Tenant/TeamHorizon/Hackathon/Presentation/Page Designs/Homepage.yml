@@ -1,0 +1,18 @@
+﻿---
+ID: "e87b388f-2642-4058-bf10-0715228ca086"
+Parent: "85e52125-80a9-404b-aa2e-a62cbc19c25e"
+Template: "39ad21ec-661e-4ccd-a835-1f4257ed2da8"
+Path: /sitecore/content/TeamHorizon/Hackathon/Presentation/Page Designs/Homepage
+DB: master
+SharedFields:
+- ID: "0966b999-0d0e-4278-acc9-9da69d461fe6"
+  Hint: PartialDesigns
+  Value: "{C858735B-3F99-42E3-830B-022443645A66}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200229T104042Z

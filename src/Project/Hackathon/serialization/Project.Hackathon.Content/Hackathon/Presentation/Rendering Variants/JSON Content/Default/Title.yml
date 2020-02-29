@@ -1,0 +1,25 @@
+﻿---
+ID: "f7301d00-baaf-4f25-be9b-9ccc14ce7f14"
+Parent: "f08c5ad6-68f1-41f3-8d04-abd31f2e0a8f"
+Template: "f69d787d-0ecf-43d3-b9cb-35b303d5233a"
+Path: /sitecore/content/TeamHorizon/Hackathon/Presentation/Rendering Variants/JSON Content/Default/Title
+DB: master
+BranchID: "1c28cde5-00f2-4392-833f-674b06bc9c67"
+SharedFields:
+- ID: "3183d84b-d0b9-4e0c-8813-a82465ccbdc8"
+  Hint: Field Name
+  Value: Title
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 0
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{51D78B69-281A-4CE8-BBA0-9E653DD09FDE}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200229T101527Z

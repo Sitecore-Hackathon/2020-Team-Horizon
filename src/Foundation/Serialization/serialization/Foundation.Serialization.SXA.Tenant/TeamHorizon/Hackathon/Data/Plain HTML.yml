@@ -1,0 +1,18 @@
+﻿---
+ID: "a2237612-48c3-4c5a-89f4-75a512a710dd"
+Parent: "4d0be512-e128-40d9-a6ab-8f3770246dd5"
+Template: "5ab4ae85-0e97-4afb-8498-b93c657a0df0"
+Path: /sitecore/content/TeamHorizon/Hackathon/Data/Plain HTML
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200229T101551Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

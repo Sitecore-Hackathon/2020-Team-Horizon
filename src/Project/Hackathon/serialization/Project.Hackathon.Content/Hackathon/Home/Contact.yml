@@ -1,0 +1,20 @@
+﻿---
+ID: "c9bab5cd-02a6-4096-8ec7-1f356745597c"
+Parent: "e2dd8f70-79e1-48e8-8a72-fc5b36743630"
+Template: "7a457cca-c799-4d60-9c06-ec09194f631c"
+Path: /sitecore/content/TeamHorizon/Hackathon/Home/Contact
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200229T101809Z
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Contact
+    - ID: "5e1cae74-2312-4a5e-9fed-ab084cd053e0"
+      Hint: Title
+      Value: Contact

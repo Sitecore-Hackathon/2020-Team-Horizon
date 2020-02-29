@@ -1,0 +1,18 @@
+﻿---
+ID: "eedd3735-14fd-47ba-8819-e40be6d06a39"
+Parent: "4d0be512-e128-40d9-a6ab-8f3770246dd5"
+Template: "8d84f263-a22a-4967-9cce-cc12407e05fc"
+Path: /sitecore/content/TeamHorizon/Hackathon/Data/Flips
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200229T101513Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

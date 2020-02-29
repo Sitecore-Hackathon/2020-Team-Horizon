@@ -1,0 +1,18 @@
+﻿---
+ID: "bc300eea-9007-48b9-ba79-b03dedf506cb"
+Parent: "b05677df-aaef-45fd-93cc-49bf209d944b"
+Template: "f86fe270-00a4-492f-bfaf-5bf27e40ce13"
+Path: /sitecore/content/TeamHorizon/Hackathon/Settings/Datasource Configurations
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200229T101450Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
